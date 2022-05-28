@@ -18,8 +18,8 @@ import javax.validation.constraints.NotNull;
 public class Student {
     @Id
     @SequenceGenerator(
-            name = "student_sequence",
-            sequenceName = "student_sequence",
+            name = "student",
+            sequenceName = "student",
             allocationSize = 1
     )
     @GeneratedValue(
